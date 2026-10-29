@@ -1,6 +1,10 @@
-# Trident
+<p align="center">
+  <img src="assets/trident_logo.png" alt="Trident logo" width="320">
+</p>
 
-*A three-barreled Active Directory remediation-verification suite -- three focused tools, one trust-aware engine.*
+<h1 align="center">Trident</h1>
+
+<p align="center"><em>A three-barreled Active Directory remediation-verification suite -- three focused tools, one trust-aware engine.</em></p>
 
 Three focused tools for verifying remediation of common Active Directory findings
 across domains and trusts, using a single low-privilege account.
