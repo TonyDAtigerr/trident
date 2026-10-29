@@ -1,0 +1,5 @@
+# One domain per line. Optionally pin a DC after a comma: domain,dc
+# A bare domain is resolved to a DC via DNS SRV.
+# Include your account's home domain so the trust realm can be auto-detected.
+corp.example.com
+child.example.com,dc01.child.example.com

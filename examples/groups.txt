@@ -1,0 +1,4 @@
+# foreign_principal_checker --groups-file: one privileged group per line.
+Administrators
+Domain Admins
+Enterprise Admins

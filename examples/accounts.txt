@@ -1,0 +1,3 @@
+# weak_password_checker: one username@domain per line.
+svc_weak1@corp.example.com
+admin@child.example.com

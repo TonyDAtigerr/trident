@@ -1,0 +1,4 @@
+# One sAMAccountName per line. Lines starting with # are ignored.
+svc_backup
+svc_sql
+admin_svc

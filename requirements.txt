@@ -1,0 +1,6 @@
+# Core tool needs only the Python standard library + netexec (nxc) on PATH.
+# These are OPTIONAL extras:
+
+openpyxl        # --xlsx colored Excel report
+dnspython       # --forest auto-discovery (DNS SRV lookups)
+ldap3           # --forest auto-discovery (read the forest Partitions container)

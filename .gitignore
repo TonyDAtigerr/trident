@@ -1,0 +1,20 @@
+# Never commit assessment output / client data
+Results.*
+*_report.txt
+*_report.csv
+*_report.xlsx
+*.xlsx
+*.csv
+ldap_results*.txt
+raw*.txt
+capture*.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+*.log

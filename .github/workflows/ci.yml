@@ -1,0 +1,19 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install optional deps
+        run: pip install -r requirements.txt
+      - name: Byte-compile all tools
+        run: python -m compileall -q .
+      - name: Smoke-test --help
+        run: |
+          python password_reuse_checker.py --help > /dev/null
+          python weak_password_checker.py --help > /dev/null
+          python foreign_principal_checker.py --help > /dev/null
